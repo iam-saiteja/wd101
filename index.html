@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+</head>
+
+<h1>Registration Page</h1>
+    <form id="registrationForm">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+         
+            <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+         
+            <br><br>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+         
+            <br><br>
+
+            <input type="checkbox" id="acceptTerms" name="acceptTerms" required>
+            <label for="acceptTerms">Accept Terms & Conditions</label>
+         
+            <br><br>
+
+            <button type="submit">Submit</button>
+         </form>
+    </form>
+    
+    <h2>Entries</h2>
+    <table border="1" id="user-entries">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Date of Birth</th>
+            <th>Terms of conditions</th>
+        </tr>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>
